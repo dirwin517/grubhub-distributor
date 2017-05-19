@@ -38,7 +38,7 @@ class GrubHub {
         return new Promise((resolve, reject) => {
                 this.request({
                     method : 'GET',
-                    url : 'https://api-gtm.grubhub.com/diners/e6ac03ac-487f-11e4-9697-9cb654858910/order-history?pageNum=1&pageSize=20&sorts=default',
+                    url : 'https://api-gtm.grubhub.com/diners/'+this.user_id+'/order-history?pageNum=1&pageSize=20&sorts=default',
                     json : true,
                     headers : {
                         Authorization : 'Bearer ' + this.token
