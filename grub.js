@@ -12,7 +12,7 @@ let calculate = new Calc();
 let users = JSON.parse(process.argv[4]);
 
 client.connect(process.argv[2], process.argv[3]).then(()=>{
-    client.getOrderLineItems(0).then((orderData)=>{
+    client.getOrderLineItems(process.argv[5] || 0 ).then((orderData)=>{
         console.log('data', JSON.stringify(calculate.calc(orderData,users), null, 3));
     });
 });
