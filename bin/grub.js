@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var client = require('../lib/grubhubclient');
 
 var calculate = require('../lib/calc');
