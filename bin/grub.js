@@ -1,6 +1,6 @@
 var client = require('../lib/grubhubclient');
 
-var alculate = require('../lib/calc');
+var calculate = require('../lib/calc');
 
 var users = JSON.parse(process.argv[4]);
 
