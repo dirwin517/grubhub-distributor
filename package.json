@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin" : {
-    "grub" : "grub.js"
+    "grub" : "bin/grub.js"
   },
   "repository": {
     "type": "git",

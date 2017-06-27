@@ -2,11 +2,11 @@
  * Created by daniel.irwin on 4/5/17.
  */
 'use strict';
-let GrubHub = require('./lib/grubhubclient');
+let GrubHub = require('../lib/grubhubclient');
 
 let client = GrubHub;
 
-let Calc = require('./lib/calc');
+let Calc = require('../lib/calc');
 
 let calculate = Calc;
 
