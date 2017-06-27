@@ -48,4 +48,4 @@ class Calc {
 
 }
 
-module.exports = Calc;
+module.exports = new Calc();

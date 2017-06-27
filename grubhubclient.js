@@ -76,4 +76,4 @@ class GrubHub {
 
 }
 
-module.exports = GrubHub;
+module.exports = new GrubHub();

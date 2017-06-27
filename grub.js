@@ -4,11 +4,11 @@
 'use strict';
 let GrubHub = require('./grubhubclient');
 
-let client = new GrubHub();
+let client = GrubHub;
 
 let Calc = require('./calc');
 
-let calculate = new Calc();
+let calculate = Calc;
 
 let users = JSON.parse(process.argv[4]);
 
