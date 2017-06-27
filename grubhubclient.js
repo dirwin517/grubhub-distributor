@@ -1,7 +1,7 @@
 /**
  * Created by daniel.irwin on 4/5/17.
  */
-
+'use strict';
 class GrubHub {
 
 
